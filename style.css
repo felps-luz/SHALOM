@@ -1,0 +1,138 @@
+body{
+    background-image: url(FundoJudeu.jpg) ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 260px;
+    
+}
+.resumo{
+    font: 540 15px 'Verdana';
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font: 540 15px 'Verdana';
+}
+header{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 700 1.25rem 'Verdana';
+}
+.novoItem{
+    width: 800px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+table{
+    font: 400 17px 'Verdana';
+}
+tr button{
+    width: 100px;
+    border-radius: 4px;
+    font: 400 .75rem 'Verdana';
+    background-color: #6093c5b6;
+    border: 0;
+    color: white;
+    height: 18px;
+}
+tr button:hover{
+    background-color: #6093c5;
+    transition: 0.6s;
+    height: 25px;
+}
+tr button:not(:hover){
+    transition: 0.6s;
+}
+
+input{
+    border-radius: 5px;
+    
+}
+select{
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.novoItem button{
+    width: 100px;
+    border-radius: 4px;
+    font: 400 .75rem 'Verdana';
+    background-color: #6093c5b6;
+    border: 0;
+    color: white;
+    height: 18px;
+}
+.novoItem button:hover{
+    background-color: #6093c5;
+    transition: 0.6s;
+    height: 25px;
+}
+.novoItem button:not(:hover){
+    transition: 0.6s;
+}
+.input{
+    justify-content: center;
+    display: flex;
+}
+#desc{
+    margin-right: 10px;
+}
+ .selecionar{
+    display: flex;
+    justify-content: center;    
+    margin-top: 20px;
+}
+.divTabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+td{
+    width: 150px;
+    text-align: center;
+}
+.resumo{
+    margin-top: 20px;
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.resumo div {
+    width: 100px;
+    align-items: center;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    font: 400 .9375rem 'Verdana';
+    
+
+}
+table{
+    border-radius: 10px;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.719);
+    border-radius: 5px;
+}
+.divTabela{
+    margin-bottom: 20px;
+}
+
+
+
+
